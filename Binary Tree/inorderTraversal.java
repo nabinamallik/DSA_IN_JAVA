@@ -29,7 +29,7 @@ class Solution{
     }        
 }
 
-public class inOrder{
+public class inorderTraversal{
     public static void main(String[] args){
         Node root = new Node(1);
         root.left = new Node(2);
@@ -41,7 +41,7 @@ public class inOrder{
 
         Solution solution = new Solution();
 
-        ArrayList<Interger> inorderlist = solution.inOrder(root);
+        ArrayList<Interger> inorderlist = solution.inorderTraversal(root);
 
         System.out.println("Inorder Traversal: ");
         for(int i : inorderlist){
